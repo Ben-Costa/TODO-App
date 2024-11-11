@@ -1,0 +1,19 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ben-Costa/TODO-App.git",
+  "author": "Ben-PC-2 <bc234cc@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.21.1",
+    "mocha": "^10.8.2",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.0.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node src/index.js"
+  }
+}
