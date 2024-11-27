@@ -4,6 +4,7 @@ const PORT = 3000
 const itemRoutes = require('./routes/itemsRoutes.js')
 
 const dbType = process.env.DB_TYPE || 'sqlite'
+console.log(dbType)
 const Database = dbType === 'sqlite' ? require('./database/sqlite.js') : require('./database/mysql.js')
 const db = new Database()
 

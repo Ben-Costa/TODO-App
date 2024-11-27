@@ -9,8 +9,10 @@
   "dependencies": {
     "express": "^4.21.1",
     "mocha": "^10.8.2",
+    "mysql2": "^3.11.4",
     "sqlite3": "^5.1.7",
-    "uuid": "^11.0.3"
+    "uuid": "^11.0.3",
+    "wait-port": "^1.1.0"
   },
   "scripts": {
     "test": "mocha",
